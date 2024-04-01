@@ -1,0 +1,21 @@
+{
+  "name": "seleniumdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx mocha --no-timeouts --reporter mochawesome --reporter-options reportDir=C:/reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "chromedriver": "^122.0.5",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.18.1",
+    "supertest": "^6.3.4"
+  }
+}
